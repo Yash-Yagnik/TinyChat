@@ -1,6 +1,4 @@
 % Yash Yagnik
-% Final 11/24/24 7:30pm
-% I pledge my honor that I have abided by the Stevens Honor System
 
 -module(server).
 
