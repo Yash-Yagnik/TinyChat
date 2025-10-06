@@ -1,6 +1,4 @@
 % Yash Yagnik
-% Final 11/24/24 7:30pm
-% I pledge my honor that I have abided by the Stevens Honor System
 -module(client).
 
 -export([main/1, initial_state/2]).
@@ -179,3 +177,4 @@ do_quit(State, Ref) ->
 		{_PID, _R, quit} ->
 			{ack_quit, State}
 	end.
+
